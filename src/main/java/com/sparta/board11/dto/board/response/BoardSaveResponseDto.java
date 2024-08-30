@@ -6,7 +6,7 @@ import java.util.List;
 
 @Getter
 public class BoardSaveResponseDto {
-    private final List<contents> contents;
+    private final String contents;
     private final Long id;
     private final String title;
 
